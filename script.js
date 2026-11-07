@@ -1,0 +1,1 @@
+document.querySelectorAll('.menu-toggle').forEach(btn=>btn.addEventListener('click',()=>{const links=document.querySelector('.nav-links');const open=links.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));}));document.querySelectorAll('form.newsletter').forEach(form=>form.addEventListener('submit',e=>e.preventDefault()));
